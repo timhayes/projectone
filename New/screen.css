@@ -1,0 +1,110 @@
+* {
+	margin: 0 auto;
+	padding: 0;
+	font: 11px/21px verdana, helvetica, arial, sans-serif;
+	color: #666;
+	}
+	
+body { background-color: #ddd; }
+	
+#wrap {
+	position: relative;
+	width: 880px;
+	height: auto;
+	background-color: #fff;
+	padding: 0 20px 600px;
+	}
+
+#col-info {
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	width: 180px;
+	height: auto;
+	}
+
+#info {
+	position: fixed; 
+	width: 180px;
+	height: auto;
+	margin-top: 140px;
+	padding-top: 22px;
+	border-top: 2px solid #eee;
+	}
+
+#wrap-logo {
+	position: fixed; 
+	width: 180px;
+	height: auto;
+	}
+
+a#logo {
+	position: absolute;
+	width: 52px;
+	height: 92px;
+	background: transparent url(../media/i/logo.jpg) no-repeat 0 0;
+	text-indent: -999em;
+	border-bottom: 0px;
+	}
+	
+a#logo:hover { background: transparent url(../media/i/logo.jpg) no-repeat 0 -92px; }
+
+#col-nav {
+	position: absolute;
+	top: 190px;
+	left: 220px;
+	width: 180px;
+	height: auto;
+	}
+	
+#col-resume {
+	float: left;
+	width: 480px;
+	height: auto;
+	margin: 190px 0 0 400px;
+	padding-top: 22px;
+	border-top: 2px solid #eee;
+	}
+
+#education,
+#work-experience,
+#languages-software,
+#associations {
+	margin-bottom: 100px;
+	}
+
+h1, p { margin-bottom: 16px; }
+
+a {
+	text-decoration: none;
+	border-bottom: 1px dotted #ddd;
+	}
+	
+a:hover {
+	color: #0ad;
+	border-bottom: 1px dotted #0ad;
+	}
+	
+ul#nav {
+	position: fixed;
+	margin-bottom: 20px; 
+	padding-top: 22px;
+	border-top: 2px solid #eee;
+	width: 180px;
+	}
+	
+ul { list-style: none; }
+dl { margin-left: 100px; margin-bottom: 16px; }
+h1, dt { color: #222; }
+dt a { color: #222; }
+
+.clear { clear: both; }
+
+.dates {
+	float: left;
+	width: 100px;
+	color: #aaa;
+	}
+	
+	
+	
